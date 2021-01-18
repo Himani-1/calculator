@@ -1,0 +1,62 @@
+.body
+{
+background-color:none;
+border-radius:80px;
+
+}
+.container
+{
+width:250px;
+height:350px;
+margin:80px auto;
+border-top: 2px solid;
+border-bottom: 2px solid;
+border-right: 2px solid;
+border-left: 2px solid;
+box-shadow: 5px 5px 10px #b6a9a9, -5px -5px 10px #ffffff;
+}
+.cal-box{
+width:200px;
+margin:25px auto;
+}
+#display{
+border:none;
+outline: none;
+color:black;
+text-align:right;
+font-weight:600;
+padding:10px;
+margin: 30px 0 20px 0;
+background:none ;
+box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #ffffff ;
+}
+.button
+{
+margin:none;
+width: 42px;
+height:42px;
+font-size10px;
+font-weight:bold;
+cursor:pointer;
+border-top:2px solid #c1c1c1;
+border-bottom:2px solid #c1c1c1;
+border-right:2px solid #c1c1c1;
+border-left:2px solid #c1c1c1;
+background:none;
+}
+.button:active{
+box-shadow: inset 1px 1px 2px#babecc, inset -1px -1px 2px #ffffff;
+}
+.mathbutton{
+background: gray;
+color: white;
+}
+.eqbutton{
+background:yellow;
+color: white;
+}
+.dbutton{
+background:gray;
+color: white;
+}
+
